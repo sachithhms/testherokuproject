@@ -4,7 +4,7 @@ var app = express();
 var bodyparser = require('body-parser');
 
 app.get('/', function(req, res){
-   res.send("Well come to node server"); 
+   res.send("Well come Soma"); 
 });
 app.get('/download', function(){
 	res.download('./package.json', function(){
